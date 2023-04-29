@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(lightskyblue, pink);
+    color: #ffffff;
+    
+}
+.image{
+    border-radius:50% ;
+    border: 5px solid #EFB0C9;
+    width: 140px;
+}
+h1, h3, h5, h4, h2, p{
+    text-shadow: 0px 0px 1px black;
+}
+#bday-date, #bday-age{
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0px 10px 0px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.giftOne{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.giftSecond-img, .giftOne-img, .giftThird-img, .giftFour-img, .giftFinal-img {
+    width: 400px;
+    background-image: url("gift-cover.jpg");
+    border-radius: 10px;
+    border: 5px solid white;
+    height: 400px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giftOne-title{
+    margin-bottom: 10px;
+}
+.giftOne-inst{
+    margin-top: 0px;
+}
+.giftOne-img:hover{
+    background-size: cover;
+    background-image: url("happy.gif");
+    
+
+}
+.giftSecond-img:hover{
+    background-size: cover;
+    background-image: url("smart.gif");
+}
+.giftThird-img:hover{
+    background-size: cover;
+    background-image: url("carringGirl.gif");
+    
+}
+.giftFour-img:hover{
+    background-size: cover;
+    background-image: url("badPerson.gif");
+}
+.giftFinal-img{
+    height: 200px;
+}
+.giftFinal-img:hover{
+    background-image: url("finalGift.gif");
+}
+  
+
+
+
+
